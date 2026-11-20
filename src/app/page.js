@@ -1,15 +1,26 @@
-import Image from "next/image";
+
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import About from "../components/About";
+import Skills from "../components/Skills";
+import Projects from "../components/Projects";
+import Education from "../components/Education";
+import Experience from "../components/Experience";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-<>
     <main>
-      <section>
-        <h1>Welcome to My Portfolio</h1>
-        <p>Hello, I'm Aishwarya! I'm a passionate web developer.</p>
-        
-      </section>
+      <Navbar />
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
+      <Education />
+      <Experience />
+      <Contact />
+      <Footer />
     </main>
-</>
   );
 }
